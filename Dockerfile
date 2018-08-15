@@ -1,2 +1,3 @@
 FROM vmware/powerclicore
-RUN powershell Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:\$false
+SHELL [ "pwsh", "-command" ]
+RUN Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
