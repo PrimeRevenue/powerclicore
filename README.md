@@ -1,2 +1,4 @@
 # powerclicore
-Remove invalid cert from official powercli container
+Remove invalid cert warnings from official powercli container
+
+https://hub.docker.com/r/primerevenue/powerclicore/
